@@ -5,7 +5,7 @@ import Suggesstions from "./Suggesstion";
 function Timeline() {
   return (
     <div className="timeline">
-      <div className="timeline__left">Timeline</div>
+      <div className="timeline__left">Timelines</div>
       <div className="timeline__right">
         <Suggesstions/>
       </div>
