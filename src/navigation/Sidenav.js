@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Sidenav.css";
+import HomeIcon from '@mui/icons-material/Home';
 
 function Sidenav() {
   return (
