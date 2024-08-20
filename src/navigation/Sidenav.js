@@ -17,36 +17,38 @@ function Sidenav() {
         src="https://www.pngkey.com/png/full/828-8286178_mackey-work-needs-no-elaborate-presentation-or-distracting.png"
         alt=""
       />
-      <div className="sidenav__button">
-        <button className="side__button">
+      <div className="sidenav__buttons">
+        <button className="sidenav__button">
           <HomeIcon />
           <span>Home</span>
         </button>
-        <button className="side__button">
+        <button className="sidenav__button">
           <SearchIcon />
           <span>Search</span>
         </button>
-        <button className="side__button">
+        <button className="sidenav__button">
           <ExploreIcon />
           <span>Explore</span>
         </button>
-        <button className="side__button">
+        <button className="sidenav__button">
           <SlideshowIcon />
           <span>Reels</span>
         </button>
-        <button className="side__button">
+        <button className="sidenav__button">
           <ChatIcon />
           <span>Message</span>
         </button>
-        <button className="side__button">
+        <button className="sidenav__button">
           <FavoriteBorderIcon />
           <span>Notification</span>
         </button>
-        <button className="side__button">
+        <button className="sidenav__button">
           <AddCircleIcon />
           <span>Create</span>
         </button>
-        <button className="side__button">
+      </div>
+      <div className="sidenav_more">
+        <button className="sidenav__button">
           <MenuIcon />
           <span>Menu</span>
         </button>
