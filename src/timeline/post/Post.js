@@ -6,13 +6,13 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline';
 import { Bookmark, Telegram } from '@mui/icons-material';
 
-function Post() {
+function Post({user,postImage,likes,timepamp}) {
   return (
     <div className='post'>
     <div className='post__header'>
         <div className='post__headerAuthor'>
-        <Avatar>R</Avatar>
-        redian_*<span>12h</span>
+        <Avatar>{user.charAt(0).toUpperCase()}</Avatar>
+       {user} . {" "} <span> {timepamp} </span>
         </div>
         <MoreHorizIcon/>
     </div>
