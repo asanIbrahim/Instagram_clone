@@ -55,7 +55,7 @@ function Suggesstions() {
               <span className="realtion">New to Instagram</span>
             </div>
           </div>
-          <button className="follow__button">Follo</button>
+          <button className="follow__button">Follow</button>
         </div>
       </div>
     </div>
