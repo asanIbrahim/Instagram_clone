@@ -33,11 +33,11 @@
 .follow__button:hover {
   color: white;
   cursor: pointer;
-}
+};
 .username {
   font-weight: 400;
   font-size: 14px;
-}
+};
 .avatar{
 margin-right: 10px;
-}
+};
