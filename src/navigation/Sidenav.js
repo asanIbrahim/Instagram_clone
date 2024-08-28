@@ -50,7 +50,7 @@ function Sidenav() {
       <div className="sidenav_more">
         <button className="sidenav__button">
           <MenuIcon />
-          <span>Menu</span>
+          <span>Menus</span>
         </button>
       </div>
     </div>
