@@ -30,7 +30,7 @@ function Post({user,postImage,likes,timepamp}) {
             <Bookmark className='postIcon'/>
          </div>
         </div>
-       Liked by {likes} peoples
+       Like by {likes} peoples
     </div>
     </div>
   )
